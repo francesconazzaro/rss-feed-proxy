@@ -1,0 +1,18 @@
+[project]
+name = "rss-feed-proxy"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.116.1",
+    "lxml>=6.0.0",
+    "requests>=2.32.4",
+    "uvicorn>=0.35.0",
+]
+
+[dependency-groups]
+dev = [
+    "jupyter[notebook]>=1.1.1",
+    "ruff>=0.12.4",
+]
